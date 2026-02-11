@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+processed_data.csv
+model_home_win.pkl
+model_over25.pkl
+model_btts.pkl
+model_config.json

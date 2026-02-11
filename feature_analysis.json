@@ -1,0 +1,944 @@
+{
+  "actual_home_win": [
+    {
+      "feature": "rating_diff",
+      "correlation": 0.3607472164468267,
+      "p_value": 4.320392685627169e-112,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_goal_diff",
+      "correlation": 0.35314386608939446,
+      "p_value": 3.5438426893964e-107,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_goal_ratio",
+      "correlation": 0.3336153095064758,
+      "p_value": 3.65985187695922e-95,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Match Score Prediction (Home)",
+      "correlation": 0.32483859395675757,
+      "p_value": 4.848528506938175e-90,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_cs_diff",
+      "correlation": 0.2997776042947323,
+      "p_value": 2.506730448468139e-76,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_form_diff",
+      "correlation": 0.29650402256671277,
+      "p_value": 1.238972650027812e-74,
+      "n_samples": 3633
+    },
+    {
+      "feature": "combined_strength_diff",
+      "correlation": 0.29574191194445804,
+      "p_value": 3.0496932717383835e-74,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Match Score Prediction (Away)",
+      "correlation": -0.28705529837881577,
+      "p_value": 7.231482303244152e-70,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_scored_diff",
+      "correlation": 0.273253309719335,
+      "p_value": 2.7810831375198868e-27,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_score_home",
+      "correlation": 0.2689319117842183,
+      "p_value": 3.804040585044921e-61,
+      "n_samples": 3628
+    },
+    {
+      "feature": "pred_home_win",
+      "correlation": 0.23586300437656232,
+      "p_value": 4.1374259431431257e-47,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_score_away",
+      "correlation": -0.23187760166916863,
+      "p_value": 1.7346349518097074e-45,
+      "n_samples": 3628
+    },
+    {
+      "feature": "pred_away_win",
+      "correlation": -0.2310836357164081,
+      "p_value": 3.066262043292613e-45,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_ratio",
+      "correlation": 0.22354062948885903,
+      "p_value": 2.24935417357654e-42,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Avg XG Scored (Home)",
+      "correlation": 0.21432610211800365,
+      "p_value": 3.689877289110308e-17,
+      "n_samples": 1511
+    },
+    {
+      "feature": "avg_xg_conceded_diff",
+      "correlation": -0.20233551446306555,
+      "p_value": 2.0077809879842106e-15,
+      "n_samples": 1511
+    },
+    {
+      "feature": "Team Rating (Home)",
+      "correlation": 0.19966044570733715,
+      "p_value": 5.54172975053192e-34,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_form_home",
+      "correlation": 0.19565553134004243,
+      "p_value": 1.1255914753590257e-32,
+      "n_samples": 3633
+    },
+    {
+      "feature": "combined_strength_home",
+      "correlation": 0.1944789203716387,
+      "p_value": 2.6928569621823745e-32,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Rating (Away)",
+      "correlation": -0.17659187217435726,
+      "p_value": 7.794935623993712e-27,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_form_away",
+      "correlation": -0.17570876427588036,
+      "p_value": 1.4031816354980762e-26,
+      "n_samples": 3633
+    },
+    {
+      "feature": "combined_strength_away",
+      "correlation": -0.17497450903207323,
+      "p_value": 2.2822486534260246e-26,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Avg XG Scored (Away)",
+      "correlation": -0.1714989660209394,
+      "p_value": 1.9369859528723766e-11,
+      "n_samples": 1511
+    },
+    {
+      "feature": "form_diff",
+      "correlation": 0.14586814040106927,
+      "p_value": 9.886536193811428e-19,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Avg XG Conceded (Away)",
+      "correlation": 0.14409936211562824,
+      "p_value": 1.843066981230057e-08,
+      "n_samples": 1511
+    },
+    {
+      "feature": "Avg XG Conceded (Home)",
+      "correlation": -0.13537472102483583,
+      "p_value": 1.276363927582957e-07,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_max_goals",
+      "correlation": 0.1304879184598302,
+      "p_value": 2.8764528785222283e-15,
+      "n_samples": 3633
+    },
+    {
+      "feature": "form_ratio",
+      "correlation": 0.13008690422095218,
+      "p_value": 3.4991786589538596e-15,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Form (Home)",
+      "correlation": 0.10567942084752265,
+      "p_value": 1.7088740074557644e-10,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Form (Away)",
+      "correlation": -0.10060803701429424,
+      "p_value": 1.2212821283646703e-09,
+      "n_samples": 3633
+    },
+    {
+      "feature": "xg_pred_diff",
+      "correlation": 0.08824456992296839,
+      "p_value": 1.0000366181713456e-07,
+      "n_samples": 3632
+    },
+    {
+      "feature": "pred_min_goals",
+      "correlation": -0.07942526176923129,
+      "p_value": 1.6411408605114783e-06,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_total_goals",
+      "correlation": 0.07867351584123056,
+      "p_value": 2.0571748526979126e-06,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Predictability (Home)",
+      "correlation": 0.06479973315130354,
+      "p_value": 9.306754730925019e-05,
+      "n_samples": 3632
+    },
+    {
+      "feature": "home_attack_vs_away_def",
+      "correlation": 0.057864128515370414,
+      "p_value": 0.024493823061663762,
+      "n_samples": 1511
+    },
+    {
+      "feature": "XG Predictability (Away)",
+      "correlation": -0.053361027577471215,
+      "p_value": 0.001295183567444308,
+      "n_samples": 3632
+    },
+    {
+      "feature": "xg_luck_diff",
+      "correlation": 0.04841211788326769,
+      "p_value": 0.003514748512119786,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Luckiness (Home)",
+      "correlation": 0.04761392638305473,
+      "p_value": 0.004097713491158309,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_cs_total",
+      "correlation": 0.047436273815767,
+      "p_value": 0.0042388471006788485,
+      "n_samples": 3633
+    },
+    {
+      "feature": "away_attack_vs_home_def",
+      "correlation": -0.03685480082795713,
+      "p_value": 0.15217091977668382,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_draw",
+      "correlation": -0.03166227914138203,
+      "p_value": 0.056359469434585814,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_bts_yes",
+      "correlation": -0.03132529686780774,
+      "p_value": 0.05903586386565913,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_total_scored",
+      "correlation": 0.024204974877775568,
+      "p_value": 0.3470920118730049,
+      "n_samples": 1511
+    },
+    {
+      "feature": "XG Luckiness (Away)",
+      "correlation": -0.023474519377330253,
+      "p_value": 0.15717995797852116,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_cs_min",
+      "correlation": -0.02088473072379048,
+      "p_value": 0.208517934562814,
+      "n_samples": 3628
+    },
+    {
+      "feature": "xg_luck_sum",
+      "correlation": 0.018119585843095174,
+      "p_value": 0.27489443616292275,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_over",
+      "correlation": 0.017202579953787246,
+      "p_value": 0.29992483068070097,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_sum",
+      "correlation": 0.013319246526716117,
+      "p_value": 0.4222241459647393,
+      "n_samples": 3633
+    },
+    {
+      "feature": "xg_pred_avg",
+      "correlation": 0.00886016888737198,
+      "p_value": 0.5934838625026192,
+      "n_samples": 3632
+    },
+    {
+      "feature": "xg_pred_sum",
+      "correlation": 0.00886016888737198,
+      "p_value": 0.5934838625026192,
+      "n_samples": 3632
+    },
+    {
+      "feature": "avg_xg_total_conceded",
+      "correlation": 0.006144130839907397,
+      "p_value": 0.8113873093879815,
+      "n_samples": 1511
+    },
+    {
+      "feature": "form_sum",
+      "correlation": 0.003620543355628256,
+      "p_value": 0.8273109960997548,
+      "n_samples": 3633
+    }
+  ],
+  "actual_total_over25": [
+    {
+      "feature": "pred_total_goals",
+      "correlation": 0.15447912785211898,
+      "p_value": 7.663596407300693e-21,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_max_goals",
+      "correlation": 0.14865114281421588,
+      "p_value": 2.1205355629168683e-19,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_cs_total",
+      "correlation": 0.10663384641650009,
+      "p_value": 1.167841113387332e-10,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Match Score Prediction (Home)",
+      "correlation": 0.10045985286953947,
+      "p_value": 1.2916871919817128e-09,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_over",
+      "correlation": 0.08523233149702712,
+      "p_value": 2.6763281862162475e-07,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_score_home",
+      "correlation": 0.0782496798117574,
+      "p_value": 2.3722128523587603e-06,
+      "n_samples": 3628
+    },
+    {
+      "feature": "pred_draw",
+      "correlation": -0.07161475068050735,
+      "p_value": 1.5560768977591795e-05,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Luckiness (Away)",
+      "correlation": 0.05678746244406349,
+      "p_value": 0.0006161262689203201,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Avg XG Conceded (Away)",
+      "correlation": 0.05547507976669915,
+      "p_value": 0.0310617959159026,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_goal_ratio",
+      "correlation": 0.05415153667430576,
+      "p_value": 0.0010937810803758705,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_total_scored",
+      "correlation": 0.05350972209097686,
+      "p_value": 0.03754605315780984,
+      "n_samples": 1511
+    },
+    {
+      "feature": "Team Rating (Home)",
+      "correlation": 0.05140790026675022,
+      "p_value": 0.0019380692266707863,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Match Score Prediction (Away)",
+      "correlation": 0.04995244691848493,
+      "p_value": 0.0025979224795501577,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_home_win",
+      "correlation": 0.04647833859833578,
+      "p_value": 0.0050786418038917805,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_conceded_diff",
+      "correlation": -0.04520405867461841,
+      "p_value": 0.07898650819263088,
+      "n_samples": 1511
+    },
+    {
+      "feature": "rating_sum",
+      "correlation": 0.04435931663042658,
+      "p_value": 0.007492425534003273,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Avg XG Scored (Home)",
+      "correlation": 0.044030981883407184,
+      "p_value": 0.08708714470099628,
+      "n_samples": 1511
+    },
+    {
+      "feature": "xg_luck_diff",
+      "correlation": -0.042350714556346106,
+      "p_value": 0.010682106321723386,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_away_win",
+      "correlation": 0.04155967568152938,
+      "p_value": 0.012238089613179069,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_form_home",
+      "correlation": 0.03890355061529619,
+      "p_value": 0.019028719812802984,
+      "n_samples": 3633
+    },
+    {
+      "feature": "xg_luck_sum",
+      "correlation": 0.03735741687102473,
+      "p_value": 0.02434086029118181,
+      "n_samples": 3633
+    },
+    {
+      "feature": "combined_strength_home",
+      "correlation": 0.03683848685240529,
+      "p_value": 0.026391205300890428,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_score_away",
+      "correlation": 0.03522898423850011,
+      "p_value": 0.033848604195006286,
+      "n_samples": 3628
+    },
+    {
+      "feature": "pred_goal_diff",
+      "correlation": 0.03475616735817345,
+      "p_value": 0.036187161320574236,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_total_conceded",
+      "correlation": 0.03358364550568751,
+      "p_value": 0.1919823685982246,
+      "n_samples": 1511
+    },
+    {
+      "feature": "Avg XG Scored (Away)",
+      "correlation": 0.03223974748544952,
+      "p_value": 0.2103882818592704,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_min_goals",
+      "correlation": 0.03185989838248921,
+      "p_value": 0.0548374424908156,
+      "n_samples": 3633
+    },
+    {
+      "feature": "away_attack_vs_home_def",
+      "correlation": 0.02885039294364412,
+      "p_value": 0.2623876325028648,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_cs_diff",
+      "correlation": 0.028110618005249444,
+      "p_value": 0.09024598620896099,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Predictability (Away)",
+      "correlation": -0.026760709625914578,
+      "p_value": 0.10685392008361634,
+      "n_samples": 3632
+    },
+    {
+      "feature": "xg_pred_avg",
+      "correlation": -0.026217140550279246,
+      "p_value": 0.11416828811745573,
+      "n_samples": 3632
+    },
+    {
+      "feature": "xg_pred_sum",
+      "correlation": -0.026217140550279246,
+      "p_value": 0.11416828811745573,
+      "n_samples": 3632
+    },
+    {
+      "feature": "rating_diff",
+      "correlation": 0.025909731587143,
+      "p_value": 0.11842527285235596,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Rating (Away)",
+      "correlation": 0.024317897242573886,
+      "p_value": 0.14279592141140188,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_ratio",
+      "correlation": 0.023133764176050006,
+      "p_value": 0.16329349663511153,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_form_away",
+      "correlation": 0.02306282273849995,
+      "p_value": 0.16458850996982666,
+      "n_samples": 3633
+    },
+    {
+      "feature": "combined_strength_away",
+      "correlation": 0.020679464356830036,
+      "p_value": 0.21271077854284812,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_bts_yes",
+      "correlation": 0.012871786942237201,
+      "p_value": 0.43798282158981966,
+      "n_samples": 3633
+    },
+    {
+      "feature": "combined_strength_diff",
+      "correlation": 0.012781771800122731,
+      "p_value": 0.44119335191639547,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Predictability (Home)",
+      "correlation": -0.012359354508611418,
+      "p_value": 0.456500352589531,
+      "n_samples": 3632
+    },
+    {
+      "feature": "rating_form_diff",
+      "correlation": 0.01228796237743603,
+      "p_value": 0.45904379112343086,
+      "n_samples": 3633
+    },
+    {
+      "feature": "xg_pred_diff",
+      "correlation": 0.0103175365309689,
+      "p_value": 0.5342049487995273,
+      "n_samples": 3632
+    },
+    {
+      "feature": "pred_cs_min",
+      "correlation": 0.009297480000998792,
+      "p_value": 0.5755932636964944,
+      "n_samples": 3628
+    },
+    {
+      "feature": "form_sum",
+      "correlation": 0.007789555426154759,
+      "p_value": 0.6388151094395549,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Form (Away)",
+      "correlation": 0.007655144356207751,
+      "p_value": 0.6446142311927874,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_scored_diff",
+      "correlation": 0.007186315400718066,
+      "p_value": 0.7801558943627215,
+      "n_samples": 1511
+    },
+    {
+      "feature": "Avg XG Conceded (Home)",
+      "correlation": -0.0069355573127911725,
+      "p_value": 0.7876401824551185,
+      "n_samples": 1511
+    },
+    {
+      "feature": "home_attack_vs_away_def",
+      "correlation": -0.006214902398215799,
+      "p_value": 0.8092563510365812,
+      "n_samples": 1511
+    },
+    {
+      "feature": "XG Luckiness (Home)",
+      "correlation": -0.005815243954631595,
+      "p_value": 0.7260441353527751,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Form (Home)",
+      "correlation": 0.0033619699562842512,
+      "p_value": 0.8394699919084476,
+      "n_samples": 3633
+    },
+    {
+      "feature": "form_diff",
+      "correlation": -0.0030338890103648332,
+      "p_value": 0.8549523990574095,
+      "n_samples": 3633
+    },
+    {
+      "feature": "form_ratio",
+      "correlation": -0.001086028950621488,
+      "p_value": 0.9478259007953334,
+      "n_samples": 3633
+    }
+  ],
+  "actual_btts": [
+    {
+      "feature": "Avg XG Conceded (Away)",
+      "correlation": 0.07612944038053163,
+      "p_value": 0.003065216849472443,
+      "n_samples": 1511
+    },
+    {
+      "feature": "avg_xg_conceded_diff",
+      "correlation": -0.06749881484873288,
+      "p_value": 0.008674876285461612,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_min_goals",
+      "correlation": 0.06057828987351228,
+      "p_value": 0.00025877310717647,
+      "n_samples": 3633
+    },
+    {
+      "feature": "home_attack_vs_away_def",
+      "correlation": -0.050553282011293166,
+      "p_value": 0.04944710183135438,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_total_goals",
+      "correlation": 0.049225757319401445,
+      "p_value": 0.0029991033070118226,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_total_conceded",
+      "correlation": 0.040869072051259794,
+      "p_value": 0.1122876348457337,
+      "n_samples": 1511
+    },
+    {
+      "feature": "Match Score Prediction (Home)",
+      "correlation": 0.034050142644068096,
+      "p_value": 0.04014636433290694,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_cs_total",
+      "correlation": 0.030040520544470796,
+      "p_value": 0.07022463574416629,
+      "n_samples": 3633
+    },
+    {
+      "feature": "away_attack_vs_home_def",
+      "correlation": 0.025558256974667643,
+      "p_value": 0.32079285622929,
+      "n_samples": 1511
+    },
+    {
+      "feature": "xg_luck_diff",
+      "correlation": -0.022832700745011893,
+      "p_value": 0.16884253720688558,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Luckiness (Away)",
+      "correlation": 0.02217641611541389,
+      "p_value": 0.181427085243207,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_over",
+      "correlation": 0.021109321904207154,
+      "p_value": 0.2033535712031318,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_score_home",
+      "correlation": 0.020828054352427555,
+      "p_value": 0.20975570663106932,
+      "n_samples": 3628
+    },
+    {
+      "feature": "form_diff",
+      "correlation": 0.02039133577159155,
+      "p_value": 0.21915438803881274,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Avg XG Scored (Away)",
+      "correlation": 0.018689374269523665,
+      "p_value": 0.46787080395633873,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_max_goals",
+      "correlation": 0.018488018511693623,
+      "p_value": 0.2652511078242713,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Avg XG Conceded (Home)",
+      "correlation": -0.017070074308431753,
+      "p_value": 0.507304942036738,
+      "n_samples": 1511
+    },
+    {
+      "feature": "combined_strength_home",
+      "correlation": 0.01649165161880864,
+      "p_value": 0.3203448544498702,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Form (Home)",
+      "correlation": 0.016028262759493227,
+      "p_value": 0.33413272478961015,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_total_scored",
+      "correlation": 0.015969384256399908,
+      "p_value": 0.5350727500525033,
+      "n_samples": 1511
+    },
+    {
+      "feature": "pred_draw",
+      "correlation": -0.01405082263938089,
+      "p_value": 0.39718751929705903,
+      "n_samples": 3633
+    },
+    {
+      "feature": "combined_strength_diff",
+      "correlation": 0.0138678956236764,
+      "p_value": 0.40336238614870656,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Match Score Prediction (Away)",
+      "correlation": 0.013590622017103674,
+      "p_value": 0.4128308371792424,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_goal_diff",
+      "correlation": 0.013573202503632888,
+      "p_value": 0.4134300482019204,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_bts_yes",
+      "correlation": 0.013419925405071694,
+      "p_value": 0.4187247569137354,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_cs_min",
+      "correlation": 0.013222198837386139,
+      "p_value": 0.42593236391048933,
+      "n_samples": 3628
+    },
+    {
+      "feature": "Team Form (Away)",
+      "correlation": -0.012808672453943636,
+      "p_value": 0.44023248883337157,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_sum",
+      "correlation": 0.011887289113618152,
+      "p_value": 0.47381993316017285,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_form_home",
+      "correlation": 0.011502973921478336,
+      "p_value": 0.48823495386601323,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Luckiness (Home)",
+      "correlation": -0.011478241841536195,
+      "p_value": 0.489170640830389,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Rating (Home)",
+      "correlation": 0.011166010817790338,
+      "p_value": 0.5010658417715107,
+      "n_samples": 3633
+    },
+    {
+      "feature": "avg_xg_scored_diff",
+      "correlation": -0.011012516988008357,
+      "p_value": 0.6688457568544989,
+      "n_samples": 1511
+    },
+    {
+      "feature": "rating_ratio",
+      "correlation": 0.010553054193451848,
+      "p_value": 0.5248562448018897,
+      "n_samples": 3633
+    },
+    {
+      "feature": "Team Rating (Away)",
+      "correlation": 0.009122088870196532,
+      "p_value": 0.582559175669152,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_cs_diff",
+      "correlation": 0.008930356406613245,
+      "p_value": 0.5905099954466932,
+      "n_samples": 3633
+    },
+    {
+      "feature": "xg_pred_sum",
+      "correlation": -0.008729490557277215,
+      "p_value": 0.5989430438664055,
+      "n_samples": 3632
+    },
+    {
+      "feature": "xg_pred_avg",
+      "correlation": -0.008729490557277215,
+      "p_value": 0.5989430438664055,
+      "n_samples": 3632
+    },
+    {
+      "feature": "form_ratio",
+      "correlation": 0.008701136941722924,
+      "p_value": 0.6000803161901802,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_form_diff",
+      "correlation": 0.008572043493340304,
+      "p_value": 0.6055008866261075,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_away_win",
+      "correlation": 0.007875531361300685,
+      "p_value": 0.6351172206090061,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Predictability (Home)",
+      "correlation": -0.007815264032112988,
+      "p_value": 0.6377547357660919,
+      "n_samples": 3632
+    },
+    {
+      "feature": "xg_luck_sum",
+      "correlation": 0.007753527576220207,
+      "p_value": 0.6403673740299757,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_home_win",
+      "correlation": 0.0072181921069290325,
+      "p_value": 0.6636147274434525,
+      "n_samples": 3633
+    },
+    {
+      "feature": "pred_score_away",
+      "correlation": 0.0072110883453972065,
+      "p_value": 0.664142777518044,
+      "n_samples": 3628
+    },
+    {
+      "feature": "pred_goal_ratio",
+      "correlation": 0.006465454513963295,
+      "p_value": 0.6968536658477507,
+      "n_samples": 3633
+    },
+    {
+      "feature": "XG Predictability (Away)",
+      "correlation": -0.005101734378983256,
+      "p_value": 0.7585711352777977,
+      "n_samples": 3632
+    },
+    {
+      "feature": "Avg XG Scored (Home)",
+      "correlation": 0.0036670419508810646,
+      "p_value": 0.8867433375574418,
+      "n_samples": 1511
+    },
+    {
+      "feature": "form_sum",
+      "correlation": 0.0022814210938632744,
+      "p_value": 0.8906639805297598,
+      "n_samples": 3633
+    },
+    {
+      "feature": "xg_pred_diff",
+      "correlation": -0.002163210186959468,
+      "p_value": 0.8963105132435583,
+      "n_samples": 3632
+    },
+    {
+      "feature": "rating_diff",
+      "correlation": 0.0019422947674197985,
+      "p_value": 0.9068359455688558,
+      "n_samples": 3633
+    },
+    {
+      "feature": "combined_strength_away",
+      "correlation": -0.0008823647689054126,
+      "p_value": 0.9575998912040382,
+      "n_samples": 3633
+    },
+    {
+      "feature": "rating_form_away",
+      "correlation": 0.0006811927509273561,
+      "p_value": 0.9672605463526993,
+      "n_samples": 3633
+    }
+  ]
+}
